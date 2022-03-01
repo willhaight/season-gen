@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Season Generator</title>
+</head>
+
+<body>
+    <h1>Time for a season?</h1>
+
+    <div class="power-calc">
+        <label>Random Number</label>
+        <div>
+            <input type="number" placeholder="Min" id="minVal">
+            <input type="number" placeholder="Max" id="maxVal">
+        </div>
+        <button id="gen1">Generate</button>
+        <p class="display"></p>
+
+        <label>Generate Performance</label>
+        <input type="number" placeholder="Power" id="power">
+        <button id="gen2">Generate</button>
+        <p class="display"></p>
+    </div>
+
+
+    <button id="create-div">Generate Regions</button>
+    <div class="divisions">
+        <div class="region">
+            <h4>Division 1</h4>
+        </div>
+        <div class="region">
+            <h4>Division 2</h4>
+        </div>
+        <div class="region">
+            <h4>Division 3</h4>
+        </div>
+        <div class="region">
+            <h4>Division 4</h4>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    padding:0;
+    margin:0;
+}
+.power-calc{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding:5em 5em 3.5em 5em;
+}
+.display{
+    margin-bottom:2em;
+    margin-top:.5em;
+    text-align: center;
+}
+input{
+    margin-bottom: 1em;
+    text-align: center;
+}
+.region{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2.5em;
+}
+.divisions{
+    display:flex;
+    width:70%;
+}
+#create-div{
+    margin-top:3em;
+}
+.divisions p {
+    margin-top:.7em;
+}
